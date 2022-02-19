@@ -6,3 +6,4 @@ sudo sh -c 'echo deb http://pkg.jenkins-ci.org/debian binary/ >
 sudo apt-get update
 
 apt-get -y install jenkins
+ sudo apt install open jdk-11-jdk
