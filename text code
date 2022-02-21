@@ -1,0 +1,13 @@
+wget -q -O - http://pkg.jenkins-ci.org/debian/jenkins-ci.org.key | apt-key add -
+
+sudo sh -c 'echo deb http://pkg.jenkins-io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+
+sudo apt-get update
+
+sudo apt install openjdk-11-jdk
+
+sudo apt-get install jenkins
+
+sudo systemct1 start jenkens
+
+ sudo apt install open jdk-11-jdk
